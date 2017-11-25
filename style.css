@@ -1,0 +1,180 @@
+h1, h2, h3 {
+  font-family: Garamond, serif;
+}
+
+p {
+  font-family: "Lucida Sans", sans-serif;
+  color: #872a0a;
+  /*font-size: 100px;*/
+}
+
+body {
+  background-color: #C1C943;
+}
+
+#wrapper {
+  width: 90%;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  padding: 1em;
+  /*float: left;*/
+  border: .2em double #872a0a;
+}
+
+.aboutCharlieImages {
+  /*margin: 0 auto;*/
+  text-align: center;
+  background-color: #ffebd0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: .1em dotted #CC6744;
+}
+.aboutCharlieImages img {
+  border: .5em double #c1c943;
+}
+header {
+  padding: .5em;
+  /*display: inline;*/
+}
+header h1 {
+  float: right;
+  text-align: center;
+  clear: both;
+}
+header h3 {
+  text-align: right;
+  clear: both;
+}
+
+nav {
+  background-color: #CC6744;
+  /*float: right;*/
+}
+
+nav ul {
+  /*display: inline;*/
+}
+
+nav li {
+  color: #ffffff;
+  display: inline-flex;
+  align-content: space-around;
+  /*align-items: stretch;*/
+  flex-direction: row;
+  text-decoration: none;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  color: #7e850a;
+}
+
+main p {
+  color: #000000;
+}
+
+main h2 {
+  text-align: center;
+}
+
+footer {
+  padding: .5em;
+  display: inline-flex;
+  /*align-items: stretch;*/
+  /*align-content: space-around;*/
+}
+main a {
+  /*color: #872a0a;*/
+  font-size: 1em;
+}
+/*FORM*/
+
+form {
+  font-family: Garamond, serif;
+  width: 35em;
+  /*align-items: center;*/
+  margin: auto;
+  background-color: #ffebd0;
+  padding: 1em;
+  text-align: center;
+  border: .5em double #c1c943;
+}
+form h3 {
+  font-size: 1.2em;
+  background-color: #7e850a;
+  color: #ffffff;
+  text-align: center;
+  padding: .3em 0;
+  margin-top: 0;
+  border: .01em solid #ffffff;
+}
+label {
+  font-family: "Lucida Sans", sans-serif;
+  font-size: .7em;
+  color: #7e850a;
+  display: block;
+  font-weight: bold;
+}
+fieldset {
+  height: 7.7em;
+  margin: 0 auto;
+  border: .15em dotted #7e850a;
+}
+legend {
+  font-weight: bold;
+  color: #872a0a;
+}
+input {
+  font-family: "Lucida Sans", sans-serif;
+  text-align: center;
+}
+fieldset input {
+  width: 15em;
+}
+#button {
+  font-family: Garamond, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #7e850a;
+  color: #ffffff;
+  margin-top: .8em;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+/*TABLE*/
+
+table {
+  border: 10px double #c1c943;
+  border-spacing: 0;
+}
+caption {
+  padding: 10px;
+}
+th {
+  background-color: #7e850a;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 20px;
+}
+td {
+  text-align: center;
+  color: #872a0a;
+  background-color: #ffebd0;
+  border: 2px solid #c1c943;
+  width: 150px;
+  height: 75px;
+  padding: 10px;
+}
+td img {
+  display: inline-block;
+  border: 1px dotted #872a0a;
+}
+table .pet {
+  vertical-align: bottom;
+}
