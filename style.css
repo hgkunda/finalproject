@@ -20,43 +20,42 @@ body {
 }
 
 .logo {
-  padding: 1em;
-  /*float: left;*/
-  border: .2em double #872a0a;
+  /*padding: 1em;*/
+  float: left;
+  /*border: .2em double #872a0a;*/
+  /*clear: right;*/
 }
 
-.aboutCharlieImages {
-  /*margin: 0 auto;*/
-  text-align: center;
-  background-color: #ffebd0;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border: .1em dotted #CC6744;
-}
-.aboutCharlieImages img {
-  border: .5em double #c1c943;
-}
 header {
   padding: .5em;
+  /*margin-right: 2em;*/
+  color: #7e850a;
+  background-color: #ffebd0;
   /*display: inline;*/
 }
 header h1 {
   float: right;
   text-align: center;
   clear: both;
+  letter-spacing: .2em;
 }
 header h3 {
+  /*float: right;*/
+  /*clear: left;*/
   text-align: right;
-  clear: both;
 }
 
 nav {
   background-color: #CC6744;
+  text-transform: uppercase;
   /*float: right;*/
 }
-
 nav ul {
-  /*display: inline;*/
+  /*word-spacing: 1em;*/
+}
+
+nav a {
+  text-decoration: none;
 }
 
 nav li {
@@ -65,7 +64,7 @@ nav li {
   align-content: space-around;
   /*align-items: stretch;*/
   flex-direction: row;
-  text-decoration: none;
+  /*position: relative;*/
 }
 
 main {
@@ -84,7 +83,7 @@ main h2 {
 
 footer {
   padding: .5em;
-  display: inline-flex;
+  display: block;
   /*align-items: stretch;*/
   /*align-content: space-around;*/
 }
@@ -92,6 +91,27 @@ main a {
   /*color: #872a0a;*/
   font-size: 1em;
 }
+
+footer li {
+  list-style: none;
+}
+
+footer ul a {
+  text-decoration: none;
+}
+
+.aboutCharlieImages {
+  /*margin: 0 auto;*/
+  text-align: center;
+  background-color: #ffebd0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: .1em dotted #CC6744;
+}
+.aboutCharlieImages img {
+  border: .5em double #c1c943;
+}
+
 /*FORM*/
 
 form {
