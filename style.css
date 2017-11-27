@@ -1,4 +1,4 @@
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: Garamond, serif;
 }
 
@@ -10,6 +10,12 @@ p {
 
 body {
   background-color: #C1C943;
+  background-color: #C1C943;
+  background-image: -webkit-linear-gradient(to bottom, #ffffff, #C1C943);
+  background-image: -o-linear-gradient(to bottom, #ffffff, #C1C943);
+  background-image: -moz-linear-gradient(to bottom, #ffffff, #C1C943);
+  background-image: linear-gradient(to bottom, #ffffff, #C1C943);
+  background-repeat: no-repeat;
 }
 
 #wrapper {
@@ -20,26 +26,29 @@ body {
 }
 
 .logo {
-  /*padding: 1em;*/
+  padding: .2em;
+  background-color: #ffffff;
   float: left;
-  /*border: .2em double #872a0a;*/
-  /*clear: right;*/
+
+}
+
+img.logo {
+  margin: .2em;
 }
 
 header {
   padding: .5em;
   /*margin-right: 2em;*/
-  color: #7e850a;
-  background-color: #ffebd0;
+  background-color: #7e850a;
+  color: #ffffff;
   /*display: inline;*/
 }
 header h1 {
-  float: right;
+  padding-left: 12em;
   text-align: center;
-  clear: both;
   letter-spacing: .2em;
 }
-header h3 {
+header h4 {
   /*float: right;*/
   /*clear: left;*/
   text-align: right;
