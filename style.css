@@ -60,7 +60,8 @@ nav {
   /*float: right;*/
 }
 nav ul {
-  /*word-spacing: 1em;*/
+  margin: 0;
+  padding: 1em;
 }
 
 nav a {
