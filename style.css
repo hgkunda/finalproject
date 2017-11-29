@@ -83,6 +83,12 @@ nav li {
   /*position: relative;*/
 }
 
+.banner {
+  margin: 0 auto;
+  background-color: #ffebd0;
+
+}
+
 main {
   padding-left: 2em;
   padding-right: 2em;
