@@ -25,19 +25,24 @@ body {
   margin-right: auto;
 }
 
-header.logo {
-  border: .3em solid #ffffff;
+.logo {
+  /*border: .3em solid #ffffff;*/
   float: left;
   /*height: 6.25em;*/
   /*margin: .2em;*/
   /*position: relative;*/
-  display: flex;
+  display: inline-flex;
   clear: right;
   /*align-self: center;*/
   /*vertical-align: bottom;*/
 }
 
+.logo {
+  /*display: inline;*/
+}
+
 img.logo {
+  /*border: .3em solid #ffffff;*/
   /*margin: .2em;*/
   /*height: 100%;*/
   /*float: left;*/
@@ -52,7 +57,7 @@ header {
   /*height: 7em;*/
 }
 header h1 {
-  /*padding-top: .5em;*/
+  padding-top: .5em;
   margin: 0 auto;
   padding-left: 12em;
   text-align: center;
@@ -61,10 +66,12 @@ header h1 {
 }
 header h3 {
   padding-right: 4.625em;
+  padding-left: 30em;
   text-align: right;
+  padding-bottom: 2em;
   /*margin-top: 0;*/
   /*clear: left;*/
-  /*margin-bottom: 0;*/
+  margin-bottom: 0;
 }
 
 nav {
