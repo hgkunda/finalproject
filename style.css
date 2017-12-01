@@ -25,33 +25,39 @@ body {
   margin-right: auto;
 }
 
-.logo {
+header.logo {
   border: .3em solid #ffffff;
   float: left;
   /*height: 6.25em;*/
   /*margin: .2em;*/
-  position: relative;
+  /*position: relative;*/
+  display: flex;
+  clear: right;
+  /*align-self: center;*/
+  /*vertical-align: bottom;*/
 }
 
 img.logo {
-  margin: .2em;
-  height: 100%;
+  /*margin: .2em;*/
+  /*height: 100%;*/
   /*float: left;*/
 }
 
 header {
-  padding-left: .5em;
-  padding-right: .5em;
-  margin: 0 auto;
+  /*padding-left: .5em;*/
+  /*padding-right: .5em;*/
+  /*margin: 0 auto;*/
   background-color: #7e850a;
   color: #ffffff;
   /*height: 7em;*/
 }
 header h1 {
-  padding-top: .5em;
+  /*padding-top: .5em;*/
+  margin: 0 auto;
   padding-left: 12em;
   text-align: center;
   letter-spacing: .2em;
+  /*clear: left;*/
 }
 header h3 {
   padding-right: 4.625em;
@@ -70,7 +76,7 @@ nav {
 nav ul {
   margin: 0;
   padding: 1em;
-  clear: left;
+  /*clear: both;*/
 }
 
 nav a {
@@ -91,13 +97,16 @@ nav li {
   background-image: url(extra/mainbanner.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ffebd0;
+  /*background-color: #7e850a;*/
+  background-color: #000000;
+  /*background-color: #ffebd0;*/
+  /*background-color: #C1C943;*/
+  /*background-color: #cc6744;*/
   border-right: 1em solid #cc6744;
   border-bottom: 1em solid #cc6744;
   border-left: 1em solid #cc6744;
   display: flex;
   align-content: center;
-  align-items: center;
   height: 38.75em;
 }
 
@@ -236,3 +245,10 @@ td img {
 table .pet {
   vertical-align: bottom;
 }
+
+
+
+
+
+
+/*MEDIA QS*/
