@@ -88,9 +88,18 @@ nav li {
 }
 
 .banner {
-  margin: 0 auto;
-  background-color: #ffebd0;
+  background-image: url(extra/mainbanner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000000;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 38.75em;
+}
 
+img.banner {
+  align-self: center;
 }
 
 main {
