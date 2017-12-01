@@ -5,7 +5,6 @@ h1, h2, h3, h4 {
 p {
   font-family: "Lucida Sans", sans-serif;
   color: #872a0a;
-  /*font-size: 100px;*/
 }
 
 body {
@@ -35,7 +34,7 @@ body {
   /*clear: right;*/
   padding: .4em;
   background-color: #ffebd0;
-  /*align-self: center;*/
+  align-self: center;
   /*vertical-align: bottom;*/
 }
 
@@ -61,16 +60,18 @@ header {
 header h1 {
   padding-top: .5em;
   /*margin: 0 auto;*/
-  padding-left: 12em;
-  text-align: center;
+  /*padding-left: 12em;*/
+  padding-right: 2.5em;
+  /*text-align: center;*/
+  text-align: right;
   letter-spacing: .2em;
   /*clear: left;*/
 }
 header h3 {
   padding-right: 4.625em;
-  padding-left: 30em;
+  /*padding-left: 30em;*/
   text-align: right;
-  padding-bottom: 2em;
+  padding-bottom: 1.7em;
   /*margin-top: 0;*/
   /*clear: left;*/
   margin-bottom: 0;
