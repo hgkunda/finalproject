@@ -62,7 +62,7 @@ header h3 {
 }
 
 nav {
-  background-color: #CC6744;
+  background-color: #cc6744;
   text-transform: uppercase;
   /*clear: both;*/
   /*float: right;*/
@@ -91,7 +91,10 @@ nav li {
   background-image: url(extra/mainbanner.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #000000;
+  background-color: #ffebd0;
+  border-right: 1em solid #cc6744;
+  border-bottom: 1em solid #cc6744;
+  border-left: 1em solid #cc6744;
   display: flex;
   align-content: center;
   align-items: center;
@@ -141,7 +144,7 @@ footer ul a {
   background-color: #ffebd0;
   padding-top: 1em;
   padding-bottom: 1em;
-  border: .1em dotted #CC6744;
+  border: .1em dotted #cc6744;
 }
 .aboutCharlieImages img {
   border: .5em double #c1c943;
