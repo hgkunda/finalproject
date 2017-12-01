@@ -28,7 +28,7 @@ body {
 .logo {
   border: .3em solid #ffffff;
   float: left;
-  height: 6.25em;
+  /*height: 6.25em;*/
   /*margin: .2em;*/
   position: relative;
 }
@@ -36,6 +36,7 @@ body {
 img.logo {
   margin: .2em;
   height: 100%;
+  /*float: left;*/
 }
 
 header {
@@ -44,7 +45,7 @@ header {
   margin: 0 auto;
   background-color: #7e850a;
   color: #ffffff;
-  height: 7em;
+  /*height: 7em;*/
 }
 header h1 {
   padding-top: .5em;
@@ -55,18 +56,21 @@ header h1 {
 header h3 {
   padding-right: 4.625em;
   text-align: right;
-  margin-top: 0;
-  margin-bottom: 0;
+  /*margin-top: 0;*/
+  /*clear: left;*/
+  /*margin-bottom: 0;*/
 }
 
 nav {
   background-color: #CC6744;
   text-transform: uppercase;
+  /*clear: both;*/
   /*float: right;*/
 }
 nav ul {
   margin: 0;
   padding: 1em;
+  clear: left;
 }
 
 nav a {
