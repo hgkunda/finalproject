@@ -7,6 +7,17 @@ p {
   color: #872a0a;
 }
 
+hr {
+  display: block;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  border-style: inset;
+  border-width: .35em;
+  border-color: #cc6744;
+}
+
 body {
   background-color: #C1C943;
   background-color: #C1C943;
@@ -176,6 +187,22 @@ footer ul a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  /*padding-bottom: 2em;
+  padding-top: 2em;*/
+}
+
+.about-table td {
+  padding: none;
+  height: 2em;
+}
+
+.about-table th {
+  padding: none;
+}
+
+.about-table table {
+  width: 12em;
+  border: .3em double #c1c943;
 }
 
 /*FORM*/
