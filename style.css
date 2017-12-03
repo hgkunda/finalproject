@@ -35,17 +35,17 @@ body {
   margin-right: auto;
 }
 
-.logo {
+header.logo {
   border: .3em dashed #ffffff;
   float: left;
   /*height: 6.25em;*/
   margin: .2em;
   /*position: relative;*/
-  display: inline-flex;
+  /*display: inline-flex;*/
   /*clear: right;*/
   padding: .4em;
   background-color: #ffebd0;
-  align-self: center;
+  justify-content: flex-end;
   /*vertical-align: bottom;*/
 }
 
@@ -61,9 +61,7 @@ img.logo {
 }
 
 header {
-  /*padding-left: .5em;*/
-  /*padding-right: .5em;*/
-  /*margin: 0 auto;*/
+  /*display: inline-flex;*/
   background-color: #7e850a;
   color: #ffffff;
   /*height: 7em;*/
@@ -91,8 +89,10 @@ header h3 {
 nav {
   background-color: #cc6744;
   text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
   /*margin: 0 auto;*/
-  /*clear: both;*/
+  clear: both;
   /*float: right;*/
 }
 nav ul {
@@ -109,7 +109,7 @@ nav a {
 nav li {
   color: #ffffff;
   display: inline-flex;
-  align-content: space-around;
+  /*align-content: space-around;*/
   /*align-items: stretch;*/
   flex-direction: row;
   /*position: relative;*/
