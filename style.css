@@ -130,10 +130,11 @@ nav li {
   display: flex;
   align-content: center;
   height: 38.75em;
+  overflow: hidden;
 }
 
 img.banner {
-  align-self: center;
+  /*align-self: center;*/
 }
 
 main {
