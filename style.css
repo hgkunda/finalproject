@@ -228,8 +228,10 @@ fieldset input {
 /*TABLE*/
 
 table {
+  width: 80%;
   border: .625em double #c1c943;
   border-spacing: 0;
+  margin: auto;
 }
 caption {
   padding: .625em;
@@ -268,14 +270,23 @@ table .pet {
 
 /*TABLET*/
 
-@media only screen and (max-width: 908px) {
+@media only screen and (max-width: 769px) {
  .computerPets {
     display: none;
   }
   .tabletPets {
     display: block;
   }
-  td img {
-    width: 85%;
+  table td {
+    /*height: 80%;*/
+    width: 80%;
+  }
+  table tr {
+    width: 80%;
+    /*height: 80%;*/
+    margin: auto;
+  }
+  table img {
+    border: none;
   }
 }
