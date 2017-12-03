@@ -35,7 +35,7 @@ body {
   margin-right: auto;
 }
 
-header.logo {
+#logo {
   border: .3em dashed #ffffff;
   float: left;
   /*height: 6.25em;*/
@@ -80,7 +80,7 @@ header h3 {
   padding-right: 4.625em;
   /*padding-left: 30em;*/
   text-align: right;
-  padding-bottom: 1.7em;
+  padding-bottom: 2em;
   /*margin-top: 0;*/
   /*clear: left;*/
   margin-bottom: 0;
