@@ -228,36 +228,38 @@ fieldset input {
 /*TABLE*/
 
 table {
-  border: 10px double #c1c943;
+  border: .625em double #c1c943;
   border-spacing: 0;
 }
 caption {
-  padding: 10px;
+  padding: .625em;
 }
 th {
   background-color: #7e850a;
   color: #ffffff;
-  padding: 15px;
-  font-size: 20px;
+  padding: .938em;
+  font-size: 1.250em;
 }
 td {
   text-align: center;
   color: #872a0a;
   background-color: #ffebd0;
-  border: 2px solid #c1c943;
-  width: 150px;
-  height: 75px;
-  padding: 10px;
+  border: .125em solid #c1c943;
+  width: 9.375em;
+  height: 4.688em;
+  padding: .625em;
 }
 td img {
   display: inline-block;
-  border: 1px dotted #872a0a;
+  border: .063em dotted #872a0a;
 }
 table .pet {
   vertical-align: bottom;
 }
 
-
+.tabletPets {
+  display: none;
+}
 
 
 
@@ -266,8 +268,14 @@ table .pet {
 
 /*TABLET*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 908px) {
+ .computerPets {
+    display: none;
+  }
+  .tabletPets {
+    display: block;
+  }
   td img {
-    width: 75%;
+    width: 85%;
   }
 }
