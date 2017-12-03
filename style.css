@@ -200,8 +200,16 @@ footer ul a {
   padding: none;
 }
 
+.about-table a:link {
+  color: #872a0a;
+  /*text-decoration: none;*/
+}
+.about-table a:visited {
+  color: #cc6744;
+}
+
 .about-table table {
-  width: 12em;
+  width: 13em;
   border: .3em double #c1c943;
 }
 
