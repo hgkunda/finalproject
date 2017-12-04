@@ -190,11 +190,34 @@ iframe {
   border: none;
 }
 
-#rescueLinks {
+.rescueLinks {
   width: 31.25em;
   background-color: #ffebd0;
   border: .625em double #c1c943;
+  display: flex;
 }
+
+.rescue-table td {
+    padding: none;
+    height: 2em;
+  }
+
+  .rescue-table th {
+    padding: none;
+  }
+
+  .rescue-table a:link {
+    color: #872a0a;
+    /*text-decoration: none;*/
+  }
+  .rescue-table a:visited {
+    color: #cc6744;
+  }
+
+  .rescue-table table {
+    width: 30em;
+    border: none;
+  }
 
 
 /*ABOUT PAGE*/
