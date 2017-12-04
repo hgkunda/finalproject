@@ -174,9 +174,10 @@ footer ul a {
   overflow: hidden;
 }
 
-img.banner {
-  /*align-self: center;*/
+.mobile-banner {
+  display: none;
 }
+
 
 .rescueVideo {
   width: 31.25em;
@@ -365,11 +366,13 @@ table .pet {
   vertical-align: bottom;
 }
 
-
 .tablet {
   display: none;
 }
 #mobile-logo {
+  display: none;
+}
+.mobile-rescue {
   display: none;
 }
 
@@ -400,7 +403,25 @@ table .pet {
   table img {
     border: none;
   }
+  .aboutCharlieImages {
+    width: 70%;
+    margin: 0 auto;
+    padding: none;
+  }
+  .aboutCharlieImages img {
+    width: 18.75em;
+    margin: .3em;
+  }
+  .aboutCharlieImages p {
+    margin: 0;
+  }
   .mobile-aboutCharlieImages {
+    display: none;
+  }
+  .mobile-banner {
+    display: none;
+  }
+  .mobile-rescue {
     display: none;
   }
 }
@@ -462,5 +483,32 @@ table .pet {
   }
   hr {
     border-width: .3em;
+  }
+  .mobile-banner {
+    display: block;
+    height: 15em;
+    background-image: url(extra/mainbannermobile.jpeg);
+  }
+  .banner {
+    display: none;
+  }
+  .mobile-rescue {
+    display: block;
+    text-align: center;
+    background-color: #ffebd0;
+    padding: 1em;
+    border: .5em double #c1c943;
+  }
+  .mobile-rescue a:link {
+    color: #872a0a;
+  }
+  .mobile-rescue a:visited {
+    color: #cc6744;
+  }
+  .rescueLinks {
+    display: none;
+  }
+  .rescueVideo {
+    display: none;
   }
 }
