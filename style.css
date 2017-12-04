@@ -215,7 +215,8 @@ iframe {
   }
 
   .rescue-table table {
-    width: 30em;
+    width: 31.25em;
+    /*margin: auto;*/
     border: none;
   }
 
