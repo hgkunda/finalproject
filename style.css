@@ -176,6 +176,26 @@ img.banner {
   /*align-self: center;*/
 }
 
+#rescueVideo {
+  width: 31.25em;
+  background-color: #ffebd0;
+  border: .625em double #c1c943;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+iframe {
+  margin: 10px;
+  border: none;
+}
+
+#rescueLinks {
+  width: 31.25em;
+  background-color: #ffebd0;
+  border: .625em double #c1c943;
+}
+
 
 /*ABOUT PAGE*/
 
@@ -185,10 +205,10 @@ img.banner {
   background-color: #ffebd0;
   padding-top: 1em;
   padding-bottom: 1em;
-  border: .1em dotted #cc6744;
+  border: .625em double #c1c943;
 }
 .aboutCharlieImages img {
-  border: .5em double #c1c943;
+  border: .1em dotted #872a0a;
 }
 
 .about-info {
