@@ -176,7 +176,7 @@ img.banner {
   /*align-self: center;*/
 }
 
-#rescueVideo {
+.rescueVideo {
   width: 31.25em;
   background-color: #ffebd0;
   border: .625em double #c1c943;
@@ -185,9 +185,14 @@ img.banner {
   align-content: center;
 }
 
-iframe {
-  margin: 10px;
+.rescueVideo table {
   border: none;
+  width: 31.25em;
+}
+
+iframe {
+  border: none;
+  padding: none;
 }
 
 .rescueLinks {
@@ -195,6 +200,7 @@ iframe {
   background-color: #ffebd0;
   border: .625em double #c1c943;
   display: flex;
+  margin-top: 1em;
 }
 
 .rescue-table td {
