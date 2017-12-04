@@ -18,6 +18,10 @@ hr {
   border-color: #cc6744;
 }
 
+.emph {
+  /*color: something;*/
+}
+
 body {
   background-color: #C1C943;
   background-color: #C1C943;
@@ -115,28 +119,6 @@ nav li {
   /*position: relative;*/
 }
 
-.banner {
-  background-image: url(extra/mainbanner.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  /*background-color: #7e850a;*/
-  background-color: #000000;
-  /*background-color: #ffebd0;*/
-  /*background-color: #C1C943;*/
-  /*background-color: #cc6744;*/
-  border-right: 1em solid #cc6744;
-  border-bottom: 1em solid #cc6744;
-  border-left: 1em solid #cc6744;
-  display: flex;
-  align-content: center;
-  height: 38.75em;
-  overflow: hidden;
-}
-
-img.banner {
-  /*align-self: center;*/
-}
-
 main {
   padding-left: 2em;
   padding-right: 2em;
@@ -169,6 +151,31 @@ footer li {
 footer ul a {
   text-decoration: none;
 }
+
+/*HOME PAGE*/
+
+.banner {
+  background-image: url(extra/mainbanner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-color: #7e850a;*/
+  background-color: #000000;
+  /*background-color: #ffebd0;*/
+  /*background-color: #C1C943;*/
+  /*background-color: #cc6744;*/
+  border-right: 1em solid #cc6744;
+  border-bottom: 1em solid #cc6744;
+  border-left: 1em solid #cc6744;
+  display: flex;
+  align-content: center;
+  height: 38.75em;
+  overflow: hidden;
+}
+
+img.banner {
+  /*align-self: center;*/
+}
+
 
 /*ABOUT PAGE*/
 
@@ -272,10 +279,10 @@ fieldset input {
 /*TABLE*/
 
 table {
-  width: 80%;
+  /*width: 50%;*/
   border: .625em double #c1c943;
   border-spacing: 0;
-  margin: auto;
+  margin: 0 auto;
 }
 caption {
   padding: .625em;
