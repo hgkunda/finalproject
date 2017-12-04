@@ -472,6 +472,7 @@ table .pet {
   }
   nav ul {
     padding: .4em;
+    font-size: .8em;
   }
   .aboutCharlieImages {
     display: none;
@@ -509,6 +510,12 @@ table .pet {
     display: none;
   }
   .rescueVideo {
+    display: none;
+  }
+  .computerPets {
+    display: none;
+  }
+  .tabletPets {
     display: none;
   }
 }
