@@ -1,3 +1,5 @@
+/*GENERAL STYLES*/
+
 h1, h2, h3, h4 {
   font-family: Garamond, serif;
 }
@@ -23,12 +25,11 @@ hr {
 }
 
 body {
-  background-color: #C1C943;
-  background-color: #C1C943;
-  background-image: -webkit-linear-gradient(to bottom, #ffffff, #C1C943);
-  background-image: -o-linear-gradient(to bottom, #ffffff, #C1C943);
-  background-image: -moz-linear-gradient(to bottom, #ffffff, #C1C943);
-  background-image: linear-gradient(to bottom, #ffffff, #C1C943);
+  background-color: #c1c943;
+  background-image: -webkit-linear-gradient(to bottom, #ffffff, #c1c943);
+  background-image: -o-linear-gradient(to bottom, #ffffff, #c1c943);
+  background-image: -moz-linear-gradient(to bottom, #ffffff, #c1c943);
+  background-image: linear-gradient(to bottom, #ffffff, #c1c943);
   background-repeat: no-repeat;
 }
 
@@ -39,19 +40,7 @@ body {
   margin-right: auto;
 }
 
-#logo {
-  border: .3em dashed #ffffff;
-  float: left;
-  /*height: 6.25em;*/
-  margin: .2em;
-  /*position: relative;*/
-  /*display: inline-flex;*/
-  /*clear: right;*/
-  padding: .4em;
-  background-color: #ffebd0;
-  justify-content: flex-end;
-  /*vertical-align: bottom;*/
-}
+/*HEADER*/
 
 header {
   /*display: inline-flex;*/
@@ -85,8 +74,6 @@ nav {
   background-color: #cc6744;
   text-transform: uppercase;
   display: flex;
-  /*justify-content: space-between;*/
-  /*margin: 0 auto;*/
   clear: both;
   /*float: right;*/
 }
@@ -109,7 +96,7 @@ nav li {
   /*position: relative;*/
 }
 
-
+/*MAIN*/
 
 main {
   padding-left: 2em;
@@ -128,6 +115,8 @@ main a {
   /*color: #872a0a;*/
   font-size: 1em;
 }
+
+/*FOOTER*/
 
 footer {
   /*padding: 0 1em 1em 1em;*/
@@ -154,6 +143,71 @@ footer li {
 footer ul a {
   text-decoration: none;
   color: #ffffff;
+}
+
+/*SPECIAL*/
+
+#adoptlink {
+  height: 5em;
+  width: 14em;
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+  background-color: #7e850a;
+  border: 1em double #c1c943;
+  border-radius: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#adoptlink:hover {
+  height: 6em;
+  width: 15em;
+  background-color: #872a0a;
+  border: 1em double #ffebd0;
+}
+#adoptlink a:link {
+  font-family: "Lucida Sans", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+#adoptlink a:visited {
+  color: #f9faeb;
+}
+#adoptlink a:hover {
+  color: #ffebd0;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  /*line-height: 1em;*/
+}
+
+div#transwidthheight {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+    margin:10px;
+}
+
+div:hover#transwidthheight {
+    width: 300px;
+    height: 300px;
+    margin:10px;
+}
+#logo {
+  border: .3em dashed #ffffff;
+  float: left;
+  /*height: 6.25em;*/
+  margin: .2em;
+  /*position: relative;*/
+  /*display: inline-flex;*/
+  /*clear: right;*/
+  padding: .4em;
+  background-color: #ffebd0;
+  justify-content: flex-end;
+  /*vertical-align: bottom;*/
 }
 
 /*HOME PAGE*/
@@ -201,7 +255,6 @@ iframe {
   background-color: #ffebd0;
   border: .625em double #c1c943;
   display: flex;
-  /*margin-top: 1em;*/
 }
 
 .rescue-table td {
@@ -215,7 +268,6 @@ iframe {
 
   .rescue-table a:link {
     color: #872a0a;
-    /*text-decoration: none;*/
   }
   .rescue-table a:visited {
     color: #cc6744;
@@ -223,7 +275,6 @@ iframe {
 
   .rescue-table table {
     width: 31.25em;
-    /*margin: auto;*/
     border: none;
   }
 
@@ -251,7 +302,6 @@ iframe {
 /*ABOUT PAGE*/
 
 .aboutCharlieImages {
-  /*margin: 0 auto;*/
   text-align: center;
   background-color: #ffebd0;
   padding-top: 1em;
@@ -267,8 +317,6 @@ iframe {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  /*padding-bottom: 2em;
-  padding-top: 2em;*/
 }
 
 .about-table td {
@@ -295,8 +343,6 @@ iframe {
 .mobile-aboutCharlieImages {
   display: none;
 }
-
-/*FORM*/
 
 form {
   font-family: Garamond, serif;
@@ -351,7 +397,7 @@ fieldset input {
   padding-right: .5em;
 }
 
-/*TABLE*/
+/*ADOPT PAGE*/
 
 table {
   /*width: 50%;*/
@@ -385,6 +431,9 @@ table .pet {
   vertical-align: bottom;
 }
 
+
+/*HIDDEN FOR FULL SCREEN*/
+
 .tablet {
   display: none;
 }
@@ -393,10 +442,6 @@ table .pet {
 }
 .mobile-rescue {
   display: none;
-}
-
-#adoptlink {
-  color: #7e850a;
 }
 .mobilePets {
   display: none;
