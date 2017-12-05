@@ -231,7 +231,7 @@ footer ul a {
 
 iframe {
   border: none;
-  padding: none;
+  padding: 0;
 }
 
 .rescueLinks {
@@ -242,12 +242,12 @@ iframe {
 }
 
 .rescue-table td {
-    padding: none;
+    padding: 0;
     height: 2em;
   }
 
   .rescue-table th {
-    padding: none;
+    padding: 0;
   }
 
   .rescue-table a:link {
@@ -316,12 +316,12 @@ iframe {
 }
 
 .about-table td {
-  padding: none;
+  padding: 0;
   height: 2em;
 }
 
 .about-table th {
-  padding: none;
+  padding: 0;
 }
 
 .about-table a:link {
@@ -445,6 +445,9 @@ table .pet {
 .mobilePets {
   display: none;
 }
+#tabletrule {
+  display: none;
+}
 
 
 /*MEDIA QS*/
@@ -460,6 +463,10 @@ table .pet {
   }
   .tabletPets {
     display: block;
+  }
+  #tabletrule {
+    display: block;
+    /*position: absolute;*/
   }
   table tr {
     margin: auto;
@@ -593,6 +600,9 @@ table .pet {
     display: none;
   }
   .tabletPets {
+    display: none;
+  }
+  #tabletrule {
     display: none;
   }
   .blog {
