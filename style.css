@@ -112,14 +112,12 @@ main h2 {
   text-align: center;
 }
 main a {
-  /*color: #872a0a;*/
   font-size: 1em;
 }
 
 /*FOOTER*/
 
 footer {
-  /*padding: 0 1em 1em 1em;*/
   display: block;
   background-color: #ffebd0;
 }
@@ -150,8 +148,8 @@ footer ul a {
 #adoptlink {
   height: 5em;
   width: 14em;
-  -webkit-transition: width 1s, height 1s;
-  transition: width 1s, height 1s;
+  -webkit-transition: width 2s, height 2s;
+  transition: width 2s, height 2s;
   background-color: #7e850a;
   border: 1em double #c1c943;
   border-radius: 5em;
@@ -179,35 +177,15 @@ footer ul a {
   color: #ffebd0;
   text-transform: uppercase;
   letter-spacing: .5em;
-  /*line-height: 1em;*/
 }
 
-div#transwidthheight {
-    width: 100px;
-    height: 100px;
-    background: red;
-    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s, height 4s;
-    margin:10px;
-}
-
-div:hover#transwidthheight {
-    width: 300px;
-    height: 300px;
-    margin:10px;
-}
 #logo {
   border: .3em dashed #ffffff;
   float: left;
-  /*height: 6.25em;*/
   margin: .2em;
-  /*position: relative;*/
-  /*display: inline-flex;*/
-  /*clear: right;*/
   padding: .4em;
   background-color: #ffebd0;
   justify-content: flex-end;
-  /*vertical-align: bottom;*/
 }
 
 /*HOME PAGE*/
