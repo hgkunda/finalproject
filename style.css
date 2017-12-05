@@ -20,10 +20,6 @@ hr {
   border-color: #cc6744;
 }
 
-.emph {
-  /*color: something;*/
-}
-
 body {
   background-color: #c1c943;
   background-image: -webkit-linear-gradient(to bottom, #ffffff, #c1c943);
@@ -177,6 +173,7 @@ footer ul a {
   color: #ffebd0;
   text-transform: uppercase;
   letter-spacing: .5em;
+  font-weight: bold;
 }
 
 #logo {
@@ -188,6 +185,15 @@ footer ul a {
   justify-content: flex-end;
 }
 
+.centered {
+  text-align: center;
+}
+
+.emph {
+  color: #872a0a;
+  font-style: italic;
+  /*text-decoration: underline;*/
+}
 /*HOME PAGE*/
 
 .banner {
@@ -263,7 +269,15 @@ iframe {
   }
 
   .blog {
+    background-color: #ffebd0;
     border: .625em double #c1c943;
+  }
+
+  .blog a:link {
+    color: #872a0a;
+  }
+  .blog a:visited {
+    color: #cc6744;
   }
 
   .blog table {
@@ -295,6 +309,10 @@ iframe {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.about-info img {
+  border: .063em dotted #872a0a;
 }
 
 .about-table td {
@@ -385,6 +403,9 @@ table {
 }
 caption {
   padding: .625em;
+  color: #872a0a;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 th {
   background-color: #7e850a;
@@ -440,13 +461,7 @@ table .pet {
   .tabletPets {
     display: block;
   }
-  table td {
-    /*height: 80%;*/
-    width: 80%;
-  }
   table tr {
-    width: 80%;
-    /*height: 80%;*/
     margin: auto;
   }
   table img {
@@ -497,6 +512,9 @@ table .pet {
     width: 12em;
     padding: .5em;
     border: .5em double #c1c943;
+  }
+  form h3 {
+    font-size: 1em;
   }
   textarea {
     width: 15em;
