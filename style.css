@@ -109,6 +109,8 @@ nav li {
   /*position: relative;*/
 }
 
+
+
 main {
   padding-left: 2em;
   padding-right: 2em;
@@ -549,17 +551,3 @@ table .pet {
 }
 
 /*FADE*/
-
-.fade li {
-   background: #cc6744;
-   padding: 3px 8px;
-   /*display: inline-block;*/
-   transition: background .25s ease-in-out;
-   -moz-transition: background .25s ease-in-out;
-   -webkit-transition: background .25s ease-in-out;
-   }
-
-   .fade li:hover {
-      background: #ffffff;
-      /*color: #cc6744;*/
-      }
