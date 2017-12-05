@@ -53,17 +53,6 @@ body {
   /*vertical-align: bottom;*/
 }
 
-.logo {
-  /*display: inline;*/
-}
-
-img.logo {
-  /*border: .3em solid #ffffff;*/
-  /*margin: .2em;*/
-  /*height: 100%;*/
-  /*float: left;*/
-}
-
 header {
   /*display: inline-flex;*/
   background-color: #7e850a;
@@ -96,7 +85,7 @@ nav {
   background-color: #cc6744;
   text-transform: uppercase;
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   /*margin: 0 auto;*/
   clear: both;
   /*float: right;*/
@@ -104,7 +93,6 @@ nav {
 nav ul {
   margin: 0 auto;
   padding: 1em;
-  /*clear: both;*/
 }
 
 nav a {
@@ -134,20 +122,28 @@ main p {
 main h2 {
   text-align: center;
 }
-
-footer {
-  padding: .5em;
-  display: block;
-  /*align-items: stretch;*/
-  /*align-content: space-around;*/
-}
 main a {
   /*color: #872a0a;*/
   font-size: 1em;
 }
 
+footer {
+  /*padding: 0 1em 1em 1em;*/
+  display: block;
+  background-color: #ffebd0;
+}
+
+.extra-footer {
+  padding: 1em;
+  text-align: center;
+}
+
 footer ul {
-  display: inline;
+  display: flex;
+  justify-content: space-around;
+  background-color: #7e850a;
+  text-transform: uppercase;
+  padding: 1em;
 }
 footer li {
   list-style: none;
