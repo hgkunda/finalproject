@@ -460,10 +460,6 @@ table .pet {
   .about-info {
     display: block;
   }
-  .about-info h2 {
-    color: #872a0a;
-    text-decoration: underline;
-  }
   .about-table table {
     display: none;
   }
