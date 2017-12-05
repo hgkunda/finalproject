@@ -136,7 +136,7 @@ footer {
 }
 
 .extra-footer {
-  padding: 1em;
+  padding: .7em;
   text-align: center;
 }
 
@@ -395,6 +395,13 @@ table .pet {
   display: none;
 }
 
+#adoptlink {
+  color: #7e850a;
+}
+.mobilePets {
+  display: none;
+}
+
 
 /*MEDIA QS*/
 
@@ -441,6 +448,9 @@ table .pet {
     display: none;
   }
   .mobile-rescue {
+    display: none;
+  }
+  .mobilePets {
     display: none;
   }
 }
@@ -527,6 +537,10 @@ table .pet {
   }
   .mobile-rescue h3 {
     font-size: .9em;
+  }
+  .mobilePets {
+    display: flex;
+    flex-wrap: wrap;
   }
   .rescueLinks {
     display: none;
