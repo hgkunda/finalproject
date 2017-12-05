@@ -549,26 +549,17 @@ table .pet {
 }
 
 /*FADE*/
-.fade {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
 
-.fade:hover {
-      opacity: 0.5;
-      }
-
-.fade nav li {
-   background: #fff;
+.fade li {
+   background: #cc6744;
    padding: 3px 8px;
-   display: inline-block;
+   /*display: inline-block;*/
    transition: background .25s ease-in-out;
    -moz-transition: background .25s ease-in-out;
    -webkit-transition: background .25s ease-in-out;
    }
 
-   .nav-fade li:hover {
-      background: #ddd;
+   .fade li:hover {
+      background: #ffffff;
+      /*color: #cc6744;*/
       }
