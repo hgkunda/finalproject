@@ -153,6 +153,7 @@ footer li {
 
 footer ul a {
   text-decoration: none;
+  color: #ffffff;
 }
 
 /*HOME PAGE*/
@@ -161,11 +162,7 @@ footer ul a {
   background-image: url(extra/mainbanner.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  /*background-color: #7e850a;*/
   background-color: #000000;
-  /*background-color: #ffebd0;*/
-  /*background-color: #C1C943;*/
-  /*background-color: #cc6744;*/
   border-right: 1em solid #cc6744;
   border-bottom: 1em solid #cc6744;
   border-left: 1em solid #cc6744;
