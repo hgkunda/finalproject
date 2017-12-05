@@ -269,6 +269,7 @@ iframe {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
   /*padding-bottom: 2em;
   padding-top: 2em;*/
 }
@@ -458,6 +459,10 @@ table .pet {
   }
   .about-info {
     display: block;
+  }
+  .about-info h2 {
+    color: #872a0a;
+    text-decoration: underline;
   }
   .about-table table {
     display: none;
