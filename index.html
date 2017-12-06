@@ -7,6 +7,19 @@
     <title>Charlie's Chance Animal Rescue</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .nav-fade li {
+   padding: 3px 8px;
+   display: inline-block;
+   transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+   }
+
+   .nav-fade li:hover {
+      background: #ddd;
+      }
+    </style>
   </head>
 
   <body>
@@ -23,7 +36,7 @@
     </header>
 
     <nav>
-        <ul class="fade">
+        <ul class="nav-fade">
           <li><a href="index.html">Home</a></li>
           <li><a href="adopt.html">Adopt a Pet</a></li>
           <li><a href="about.html">About Us</a></li>
@@ -112,6 +125,20 @@
     </tr>
   </table>
   </div>
+  <div class="tablet-blog">
+    <table>
+      <tr>
+        <th>I got adopted!</th>
+      </tr>
+      <tr>
+        <td><img src="extra/featuredadoptedtablet.jpg" alt="Ivy the dog and her person Amanda"></td>
+    </tr>
+    <tr>
+      <td><p>Our furry friend Ivy found her forever home with Amanda and her family. She is now enjoying life on their farm instead of on the streets of Camden.</p>
+        <a href="index.html">Click here to read more of their story on the Charlie's Chance blog!</a></td>
+    </tr>
+  </table>
+</div>
 </div>
       <hr>
     </main>

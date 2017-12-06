@@ -92,7 +92,7 @@ nav li {
   /*position: relative;*/
 }
 
-.fade {
+/*.fade {
    opacity: 1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
@@ -101,9 +101,9 @@ nav li {
 
 .fade:hover {
       opacity: 0.5;
-      }
+      }*/
 
-.nav-fade li {
+/*.nav-fade li {
    background: #fff;
    padding: 3px 8px;
    display: inline-block;
@@ -114,7 +114,7 @@ nav li {
 
    .nav-fade li:hover {
       background: #ddd;
-      }
+      }*/
 
 /*MAIN*/
 
@@ -301,6 +301,7 @@ iframe {
     width: 18.75em;
     background-color: #ffebd0;
     border: .625em double #c1c943;
+
   }
 
   .blog a:link {
@@ -474,6 +475,9 @@ table .pet {
 #tabletrule {
   display: none;
 }
+.tablet-blog {
+  display: none;
+}
 
 
 /*MEDIA QS*/
@@ -512,6 +516,15 @@ table .pet {
   .aboutCharlieImages p {
     margin: 0;
   }
+  .tablet-blog {
+    display: flex;
+    border: .625em double #c1c943;
+    background-color: #ffebd0;
+  }
+  .tablet-blog table {
+    width: 37.5em;
+    border: none;
+  }
   .mobile-aboutCharlieImages {
     display: none;
   }
@@ -526,6 +539,9 @@ table .pet {
   }
   .rescue {
     margin: 0 auto;
+  }
+  .blog {
+    display: none;
   }
 }
 
@@ -636,6 +652,9 @@ table .pet {
     display: none;
   }
   .blog {
+    display: none;
+  }
+  .tablet-blog {
     display: none;
   }
   footer {
