@@ -271,12 +271,12 @@ iframe {
   display: flex;
 }
 
-.rescue-table td {
-    padding: 0;
-    height: 2em;
+.rescue-table a {
+    padding-top: .1em;
+    /*height: 2em;*/
   }
 
-  .rescue-table th {
+  .rescue-table td {
     padding: 0;
   }
 
@@ -326,7 +326,9 @@ iframe {
 /*ABOUT PAGE*/
 
 .aboutCharlieImages {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   background-color: #ffebd0;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -495,10 +497,9 @@ table .pet {
   .tabletPets {
     display: block;
   }
-  #tabletrule {
-    display: block;
-    /*position: absolute;*/
-  }
+.banner {
+  height: 25em;
+}
   table tr {
     margin: auto;
   }
@@ -506,12 +507,18 @@ table .pet {
     border: none;
   }
   .aboutCharlieImages {
-    width: 18em;
+    /*width: 18em;*/
     margin: 0 auto;
     padding: none;
+    flex-direction: row;
+    flex: auto;
+
+
   }
   .aboutCharlieImages img {
     width: 70%;
+    height: 70%;
+    /*flex-direction: row;*/
     margin: .3em;
   }
   .aboutCharlieImages p {
