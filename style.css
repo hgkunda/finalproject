@@ -240,7 +240,7 @@ footer ul a {
 
 
 .rescueVideo {
-  width: 31.25em;
+  width: 37.5em;
   background-color: #ffebd0;
   border: .625em double #c1c943;
   display: flex;
@@ -250,7 +250,7 @@ footer ul a {
 
 .rescueVideo table {
   border: none;
-  width: 31.25em;
+  width: 37.5em;
 }
 
 iframe {
@@ -264,7 +264,7 @@ iframe {
 }*/
 
 .rescueLinks {
-  width: 31.25em;
+  width: 37.5em;
   background-color: #ffebd0;
   border: .625em double #c1c943;
   display: flex;
@@ -287,7 +287,7 @@ iframe {
   }
 
   .rescue-table table {
-    width: 31.25em;
+    width: 37.5em;
     border: none;
   }
 
@@ -298,6 +298,7 @@ iframe {
   }
 
   .blog {
+    width: 18.75em;
     background-color: #ffebd0;
     border: .625em double #c1c943;
   }
