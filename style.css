@@ -524,6 +524,9 @@ table .pet {
   .mobilePets {
     display: none;
   }
+  .rescue {
+    margin: 0 auto;
+  }
 }
 
 /*MOBILE PHONE*/
