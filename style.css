@@ -555,10 +555,11 @@ table .pet {
     font-size: .8em;
   }
   header h1 {
-    font-size: 1.2em;
-    padding: 1.15em;
+    font-size: 1em;
+    padding: 1em;
     text-align: center;
     margin-bottom: 0;
+    letter-spacing: 0;
   }
   header h3 {
     display: none;
