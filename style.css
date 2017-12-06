@@ -506,12 +506,12 @@ table .pet {
     border: none;
   }
   .aboutCharlieImages {
-    width: 70%;
+    width: 18em;
     margin: 0 auto;
     padding: none;
   }
   .aboutCharlieImages img {
-    width: 18.75em;
+    width: 70%;
     margin: .3em;
   }
   .aboutCharlieImages p {
