@@ -92,29 +92,17 @@ nav li {
   /*position: relative;*/
 }
 
-/*.fade {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
+.fadenav li {
+padding: 3px 8px;
+display: inline-block;
+transition: background .25s ease-in-out;
+-moz-transition: background .25s ease-in-out;
+-webkit-transition: background .25s ease-in-out;
+}
 
-.fade:hover {
-      opacity: 0.5;
-      }*/
-
-/*.nav-fade li {
-   background: #fff;
-   padding: 3px 8px;
-   display: inline-block;
-   transition: background .25s ease-in-out;
-   -moz-transition: background .25s ease-in-out;
-   -webkit-transition: background .25s ease-in-out;
-   }
-
-   .nav-fade li:hover {
-      background: #ddd;
-      }*/
+.fadenav li:hover {
+  background: #783721;
+  }
 
 /*MAIN*/
 
@@ -162,6 +150,19 @@ footer ul a {
   text-decoration: none;
   color: #ffffff;
 }
+
+.fadefoot li {
+padding: 3px 8px;
+display: inline-block;
+transition: background .25s ease-in-out;
+-moz-transition: background .25s ease-in-out;
+-webkit-transition: background .25s ease-in-out;
+}
+
+.fadefoot li:hover {
+  background: #444705;
+  }
+
 
 /*SPECIAL*/
 
