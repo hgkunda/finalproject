@@ -241,15 +241,12 @@ transition: background .25s ease-in-out;
 
 .rescueVideo {
   width: 37.5em;
-  /*background-color: #ffebd0;*/
-  /*border: .625em double #c1c943;*/
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
 .rescueVideo table {
-  /*border: none;*/
   width: 37.5em;
 }
 
@@ -265,8 +262,6 @@ iframe {
 
 .rescueLinks {
   width: 37.5em;
-  /*background-color: #ffebd0;*/
-  /*border: .625em double #c1c943;*/
   display: flex;
 }
 
@@ -284,7 +279,6 @@ iframe {
 
 .rescue-table table {
   width: 37.5em;
-  /*border: none;*/
 }
 
 .home-content {
@@ -300,10 +294,7 @@ iframe {
   align-content: stretch;
   align-items: center;
   vertical-align: middle;
-  /*background-color: #ffebd0;*/
-  /*border: .625em double #c1c943;*/
 }
-
 
 .blog img {
   border: .063em dotted #872a0a;
@@ -317,12 +308,8 @@ iframe {
   color: #cc6744;
 }
 
-.blog table {
-  /*border: none;*/
-}
 .blog td {
   border: none;
-  /*padding: .8em;*/
 }
 
 .rescue {
@@ -341,7 +328,6 @@ iframe {
   background-color: #ffebd0;
   padding-top: 1em;
   padding-bottom: 1em;
-  /*border: .625em double #c1c943;*/
 }
 .echoBorder {
   border: .625em double #c1c943;
@@ -375,12 +361,6 @@ iframe {
 
 .about-table a:visited {
   color: #cc6744;
-}
-
-.about-table table {
-  /*width: 11.25em;
-  height: 11.25em;
-  border: .3em double #c1c943;*/
 }
 
 .mobile-aboutCharlieImages {
@@ -563,8 +543,6 @@ td img {
 
   .tablet-blog {
     display: flex;
-    border: .625em double #c1c943;
-    background-color: #ffebd0;
   }
 
   .tablet-blog a:link {
@@ -577,6 +555,9 @@ td img {
 
   .tablet-blog table {
     width: 37.5em;
+  }
+
+  .tablet-blog td {
     border: none;
   }
 
