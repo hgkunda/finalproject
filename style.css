@@ -81,16 +81,16 @@ nav li {
 }
 
 .fadenav li {
-padding: 3px 8px;
-display: inline-block;
-transition: background .25s ease-in-out;
--moz-transition: background .25s ease-in-out;
--webkit-transition: background .25s ease-in-out;
+  padding: 3px 8px;
+  display: inline-block;
+  transition: background .25s ease-in-out;
+  -moz-transition: background .25s ease-in-out;
+  -webkit-transition: background .25s ease-in-out;
 }
 
 .fadenav li:hover {
   background: #783721;
-  }
+}
 
 /*MAIN*/
 
@@ -325,8 +325,6 @@ iframe {
   /*padding: .8em;*/
 }
 
-
-
 .rescue {
   display: flex;
   flex-direction: column;
@@ -343,12 +341,16 @@ iframe {
   background-color: #ffebd0;
   padding-top: 1em;
   padding-bottom: 1em;
+  /*border: .625em double #c1c943;*/
+}
+.echoBorder {
   border: .625em double #c1c943;
 }
 
 .aboutCharlieImages img {
   border: .063em dotted #872a0a;
   margin: 1em;
+  background-color: #ffebd0;
 }
 
 .about-info {
@@ -364,6 +366,7 @@ iframe {
 
 .about-table td {
   height: 2em;
+  border: none;
 }
 
 .about-table a:link {
@@ -375,9 +378,9 @@ iframe {
 }
 
 .about-table table {
-  width: 11.25em;
+  /*width: 11.25em;
   height: 11.25em;
-  border: .3em double #c1c943;
+  border: .3em double #c1c943;*/
 }
 
 .mobile-aboutCharlieImages {
@@ -386,12 +389,20 @@ iframe {
 
 form {
   font-family: Garamond, serif;
-  width: 35em;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #ffebd0;
   padding: 1em;
   text-align: center;
-  border: .5em double #c1c943;
+  border-spacing: 0;
+}
+
+.echoForm table {
+  border: .625em double #c1c943;
+}
+
+.echoBorder {
+  border: .625em double #c1c943;
 }
 
 form h3 {
@@ -615,12 +626,6 @@ td img {
     display: none;
   }
 
-  form {
-    width: 12em;
-    padding: .5em;
-    border: .5em double #c1c943;
-  }
-
   form h3 {
     font-size: 1em;
   }
@@ -687,9 +692,7 @@ td img {
   .mobile-rescue {
     display: block;
     text-align: center;
-    background-color: #ffebd0;
     padding: 1em;
-    border: .5em double #c1c943;
   }
 
   .mobile-rescue a:link {
@@ -736,6 +739,9 @@ td img {
   }
 
   .blog {
+    display: none;
+  }
+  .echoBorder {
     display: none;
   }
 
