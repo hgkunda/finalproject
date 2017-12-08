@@ -241,15 +241,15 @@ transition: background .25s ease-in-out;
 
 .rescueVideo {
   width: 37.5em;
-  background-color: #ffebd0;
-  border: .625em double #c1c943;
+  /*background-color: #ffebd0;*/
+  /*border: .625em double #c1c943;*/
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
 .rescueVideo table {
-  border: none;
+  /*border: none;*/
   width: 37.5em;
 }
 
@@ -265,13 +265,13 @@ iframe {
 
 .rescueLinks {
   width: 37.5em;
-  background-color: #ffebd0;
-  border: .625em double #c1c943;
+  /*background-color: #ffebd0;*/
+  /*border: .625em double #c1c943;*/
   display: flex;
 }
 
-.rescue-table a {
-  padding-top: .1em;
+.rescue-table td {
+  border: none;
 }
 
 .rescue-table a:link {
@@ -284,7 +284,7 @@ iframe {
 
 .rescue-table table {
   width: 37.5em;
-  border: none;
+  /*border: none;*/
 }
 
 .home-content {
@@ -295,9 +295,15 @@ iframe {
 
 .blog {
   width: 18.75em;
-  background-color: #ffebd0;
-  border: .625em double #c1c943;
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  vertical-align: middle;
+  /*background-color: #ffebd0;*/
+  /*border: .625em double #c1c943;*/
 }
+
 
 .blog img {
   border: .063em dotted #872a0a;
@@ -312,8 +318,14 @@ iframe {
 }
 
 .blog table {
-  border: none;
+  /*border: none;*/
 }
+.blog td {
+  border: none;
+  /*padding: .8em;*/
+}
+
+
 
 .rescue {
   display: flex;
@@ -734,5 +746,5 @@ td img {
   footer {
     font-size: 80%;
   }
-  
+
 }
