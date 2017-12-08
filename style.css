@@ -13,8 +13,6 @@ hr {
   display: block;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
   border-style: inset;
   border-width: .35em;
   border-color: #cc6744;
@@ -39,19 +37,17 @@ body {
 /*HEADER*/
 
 header {
-  /*display: inline-flex;*/
   background-color: #7e850a;
   color: #ffffff;
-  /*height: 7em;*/
 }
+
 header h1 {
   padding-top: .5em;
   padding-right: 2.5em;
-  /*text-align: center;*/
   text-align: right;
   letter-spacing: .25em;
-  /*clear: left;*/
 }
+
 header h3 {
   padding-right: 4.625em;
   text-align: right;
@@ -66,8 +62,8 @@ nav {
   text-transform: uppercase;
   display: flex;
   clear: both;
-  /*float: right;*/
 }
+
 nav ul {
   margin: 0 auto;
   padding: 1em;
@@ -81,10 +77,7 @@ nav a {
 nav li {
   color: #ffffff;
   display: inline-flex;
-  /*align-content: space-around;*/
-  /*align-items: stretch;*/
   flex-direction: row;
-  /*position: relative;*/
 }
 
 .fadenav li {
@@ -114,6 +107,7 @@ main p {
 main h2 {
   text-align: center;
 }
+
 main a {
   font-size: 1em;
 }
@@ -137,6 +131,7 @@ footer ul {
   text-transform: uppercase;
   padding: 1em;
 }
+
 footer li {
   list-style: none;
 }
@@ -164,8 +159,7 @@ transition: background .25s ease-in-out;
 
 .fadefoot li:hover {
   background: #444705;
-  }
-
+}
 
 /*SPECIAL*/
 
@@ -189,14 +183,17 @@ transition: background .25s ease-in-out;
   background-color: #872a0a;
   border: 1em double #ffebd0;
 }
+
 #adoptlink a:link {
   font-family: "Lucida Sans", sans-serif;
   color: #ffffff;
   text-decoration: none;
 }
+
 #adoptlink a:visited {
   color: #f9faeb;
 }
+
 #adoptlink a:hover {
   color: #ffebd0;
   text-transform: uppercase;
@@ -221,6 +218,7 @@ transition: background .25s ease-in-out;
   color: #872a0a;
   font-style: italic;
 }
+
 /*HOME PAGE*/
 
 .banner {
@@ -240,7 +238,6 @@ transition: background .25s ease-in-out;
 .mobile-banner {
   display: none;
 }
-
 
 .rescueVideo {
   width: 37.5em;
@@ -274,52 +271,55 @@ iframe {
 }
 
 .rescue-table a {
-    padding-top: .1em;
-  }
+  padding-top: .1em;
+}
 
-  .rescue-table a:link {
-    color: #872a0a;
-  }
-  .rescue-table a:visited {
-    color: #cc6744;
-  }
+.rescue-table a:link {
+  color: #872a0a;
+}
 
-  .rescue-table table {
-    width: 37.5em;
-    border: none;
-  }
+.rescue-table a:visited {
+  color: #cc6744;
+}
 
-  .home-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
+.rescue-table table {
+  width: 37.5em;
+  border: none;
+}
 
-  .blog {
-    width: 18.75em;
-    background-color: #ffebd0;
-    border: .625em double #c1c943;
-  }
-  .blog img {
-    border: .063em dotted #872a0a;
-  }
+.home-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
-  .blog a:link {
-    color: #872a0a;
-  }
-  .blog a:visited {
-    color: #cc6744;
-  }
+.blog {
+  width: 18.75em;
+  background-color: #ffebd0;
+  border: .625em double #c1c943;
+}
 
-  .blog table {
-    border: none;
-  }
+.blog img {
+  border: .063em dotted #872a0a;
+}
 
-  .rescue {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+.blog a:link {
+  color: #872a0a;
+}
+
+.blog a:visited {
+  color: #cc6744;
+}
+
+.blog table {
+  border: none;
+}
+
+.rescue {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 
 /*ABOUT PAGE*/
@@ -333,6 +333,7 @@ iframe {
   padding-bottom: 1em;
   border: .625em double #c1c943;
 }
+
 .aboutCharlieImages img {
   border: .063em dotted #872a0a;
   margin: 1em;
@@ -356,6 +357,7 @@ iframe {
 .about-table a:link {
   color: #872a0a;
 }
+
 .about-table a:visited {
   color: #cc6744;
 }
@@ -365,6 +367,7 @@ iframe {
   height: 11.25em;
   border: .3em double #c1c943;
 }
+
 .mobile-aboutCharlieImages {
   display: none;
 }
@@ -378,6 +381,7 @@ form {
   text-align: center;
   border: .5em double #c1c943;
 }
+
 form h3 {
   font-size: 1.2em;
   background-color: #7e850a;
@@ -387,6 +391,7 @@ form h3 {
   margin-top: 0;
   border: .01em solid #ffffff;
 }
+
 label {
   font-family: "Lucida Sans", sans-serif;
   font-size: .7em;
@@ -394,22 +399,27 @@ label {
   display: block;
   font-weight: bold;
 }
+
 fieldset {
   height: 7.7em;
   margin: 0 auto;
   border: .15em dotted #7e850a;
 }
+
 legend {
   font-weight: bold;
   color: #872a0a;
 }
+
 input {
   font-family: "Lucida Sans", sans-serif;
   text-align: center;
 }
+
 fieldset input {
   width: 15em;
 }
+
 .button {
   font-family: Garamond, sans-serif;
   font-size: 1em;
@@ -428,18 +438,21 @@ table {
   border-spacing: 0;
   margin: 0 auto;
 }
+
 caption {
   padding: .625em;
   color: #872a0a;
   text-transform: capitalize;
   font-weight: bold;
 }
+
 th {
   background-color: #7e850a;
   color: #ffffff;
   padding: .938em;
   font-size: 1.250em;
 }
+
 td {
   text-align: center;
   color: #872a0a;
@@ -449,6 +462,7 @@ td {
   height: 4.688em;
   padding: .625em;
 }
+
 td img {
   display: inline-block;
   border: .063em dotted #872a0a;
@@ -460,18 +474,23 @@ td img {
 .tablet {
   display: none;
 }
+
 #mobile-logo {
   display: none;
 }
+
 .mobile-rescue {
   display: none;
 }
+
 .mobilePets {
   display: none;
 }
+
 #tabletrule {
   display: none;
 }
+
 .tablet-blog {
   display: none;
 }
@@ -491,132 +510,168 @@ td img {
   .tabletPets {
     display: block;
   }
-.banner {
-  height: 28em;
-}
+
+  .banner {
+    height: 28em;
+  }
+
   table tr {
     margin: auto;
   }
+
   table img {
     border: none;
   }
+
   .aboutCharlieImages {
     margin: 0 auto;
     flex-direction: row;
   }
+
   .aboutCharlieImages img {
     width: 45%;
     height: 45%;
     margin: .5em;
   }
+
   .aboutCharlieImages p {
     margin: 0;
   }
+
   .tablet-blog {
     display: flex;
     border: .625em double #c1c943;
     background-color: #ffebd0;
   }
+
   .tablet-blog a:link {
     color: #872a0a;
   }
+
   .tablet-blog a:visited {
     color: #cc6744;
   }
+
   .tablet-blog table {
     width: 37.5em;
     border: none;
   }
+
   .mobile-aboutCharlieImages {
     display: none;
   }
+
   .mobile-banner {
     display: none;
   }
+
   .mobile-rescue {
     display: none;
   }
+
   .mobilePets {
     display: none;
   }
+
   .rescue {
     margin: 0 auto;
   }
+
   .blog {
     display: none;
   }
+
 }
 
 /*MOBILE PHONE*/
 
 @media only screen and (max-width: 400px) {
+
   .computerPets, .tabletPets {
     display: none;
   }
+
   .about-info img {
     display: none;
   }
+
   .about-info {
     display: block;
   }
+
   .about-table table {
     display: none;
   }
+
   form {
     width: 12em;
     padding: .5em;
     border: .5em double #c1c943;
   }
+
   form h3 {
     font-size: 1em;
   }
+
   textarea {
     width: 15em;
   }
+
   #button {
     font-size: .8em;
   }
+
   header h1 {
     font-size: 1.2em;
     padding: 1.15em;
     text-align: center;
     margin-bottom: 0;
   }
+
   header h3 {
     display: none;
   }
+
   #logo {
     display: none;
   }
+
   #mobile-logo {
     display: flex;
     float: left;
     border: .2em solid white;
     margin: .2em;
   }
+
   nav ul {
     padding: .4em;
     font-size: .8em;
   }
+
   .aboutCharlieImages {
     display: none;
   }
+
   .mobile-aboutCharlieImages {
     display: flex;
     justify-content: center;
     margin: 0 auto;
   }
+
   hr {
     border-width: .3em;
   }
+
   .mobile-banner {
     display: block;
     height: 15em;
     background-image: url(extra/mainbannermobile.jpeg);
   }
+
   .banner {
     display: none;
   }
+
   .mobile-rescue {
     display: block;
     text-align: center;
@@ -624,46 +679,60 @@ td img {
     padding: 1em;
     border: .5em double #c1c943;
   }
+
   .mobile-rescue a:link {
     color: #872a0a;
   }
+
   .mobile-rescue a:visited {
     color: #cc6744;
   }
+
   .mobile-rescue h3 {
     font-size: .9em;
   }
+
   .mobilePets {
     display: flex;
     flex-wrap: wrap;
   }
+
   #adoptlink {
     height: 4em;
     width: 12em;
   }
+
   #adoptlink:hover {
     height: 5em;
     width: 13em;
   }
+
   .rescueLinks {
     display: none;
   }
+
   .rescueVideo {
     display: none;
   }
+
   .computerPets {
     display: none;
   }
+
   .tabletPets {
     display: none;
   }
+
   .blog {
     display: none;
   }
+
   .tablet-blog {
     display: none;
   }
+
   footer {
     font-size: 80%;
   }
+  
 }
