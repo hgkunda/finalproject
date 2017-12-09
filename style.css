@@ -412,7 +412,10 @@ fieldset {
 legend {
   font-weight: bold;
   color: #872a0a;
+  text-align: center;
 }
+
+      /*note: firefox does not support centered legend*/
 
 input {
   font-family: "Lucida Sans", sans-serif;
@@ -607,12 +610,24 @@ td img {
     display: none;
   }
 
-  form h3 {
-    font-size: 1em;
+  form h3, legend {
+    font-size: .9em;
+  }
+
+  form {
+    width: 10em;
+  }
+
+  fieldset input {
+    width: 9em;
   }
 
   textarea {
-    width: 15em;
+    width: 10em;
+  }
+
+  input {
+    width: 7em;
   }
 
   #button {
@@ -664,6 +679,7 @@ td img {
     display: block;
     height: 15em;
     background-image: url(extra/mainbannermobile.jpeg);
+    background-position: bottom;
   }
 
   .banner {
