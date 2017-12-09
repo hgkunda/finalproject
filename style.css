@@ -217,6 +217,8 @@ transition: background .25s ease-in-out;
 .emph {
   color: #872a0a;
   font-style: italic;
+  letter-spacing: .075em;
+  text-shadow: #f8b6a0 .1em .1em .1em;
 }
 
 /*HOME PAGE*/
