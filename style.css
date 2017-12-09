@@ -617,19 +617,11 @@ td img {
   }
 
   form {
-    width: 10em;
-  }
-
-  fieldset input {
-    width: 9em;
+    width: 12em;
   }
 
   textarea {
-    width: 10em;
-  }
-
-  input {
-    width: 7em;
+    width: 12em;
   }
 
   #button {
